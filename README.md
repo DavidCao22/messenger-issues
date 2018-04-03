@@ -1,8 +1,8 @@
 ![promo](https://raw.githubusercontent.com/klinker-apps/messenger-issues/master/promo/klinker-apps/combined_graphic_pulse.png)
 
-# Messenger Issue Tracker and Road Map
+# Pulse SMS Issue Tracker and Road Map
 
-**This is not a support section**, if you need support or have a question about the app then please send me an email instead. My email is in the `Help and Feedback` section of the Android App.
+**This is not a support section**, if you need support or have a question about the app please start [here](https://messenger.klinkerapps.com/help).
 
 This repo will be used for tracking issues and act as a roadmap across all of Pulse's platforms:
 
@@ -10,8 +10,7 @@ This repo will be used for tracking issues and act as a roadmap across all of Pu
 2. Backend Server
 3. Web Client
 4. Chrome App/Extension
-
-and any that may be added in the future (iOS, Mac, Windows, etc?).
+5. Native Desktop (Windows, macOS, Linux)
 
 To view the currently reported issues and requests, simply hit the [issues](https://github.com/klinker-apps/messenger-issues/issues) tab at the top of the screen.
 
@@ -27,7 +26,6 @@ When filing an issue with us, please follow these simple rules:
 4. Take your time and explain the issue, steps to repeat it or other things that may help us to solve it. Screenshots are also encouraged.
 5. Note your app version and device name for your primary device (phone/android app).
 6. Type in clear English. If we can't understand it then it will unfortunately need to be closed.
-7. Label the issue using any relevant tags on the right side of the screen. For example, a bug in the chrome app would be labeled with `Chrome` and `Bug`.
 
 Here is a sample of what a good issue report would look like, feel free to use it as a template:
 
@@ -53,3 +51,14 @@ Add a floating action button to the app which has a home icon on it that only sh
 ```
 
 To report your issue, find the `Issues` link near the top of the web page and click it. Then in the right corner, click the green button labeled `New issue`.
+
+## Contributing to Pulse SMS
+
+Want to dig in to some code yourself, rather than just report issues to this page? I have two open-source Pulse clients that you can take a look at:
+
+1. The Pulse desktop clients, built on Electron: https://github.com/klinker24/messenger-desktop
+2. The Pulse iOS client, built in Swift: https://github.com/klinker24/messenger-ios
+
+If you are interested in helping, take a look and see what you can build. I am always open to quality contributions towards the app! 
+
+The backend, web interface, and Android apps are not open-source. All the issue tracking/feature requests, for the two repos above, will still be done on this page, as well.
